@@ -1,0 +1,1702 @@
+[
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 1,
+    "train_loss": 0.6577140906311477,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 2,
+    "train_loss": 0.6524793416119937,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 3,
+    "train_loss": 0.6505933646741602,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 4,
+    "train_loss": 0.6491539032870075,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 5,
+    "train_loss": 0.6478120789563375,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 6,
+    "train_loss": 0.6465203633156467,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 7,
+    "train_loss": 0.6452701023038029,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 8,
+    "train_loss": 0.6440583878092427,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 9,
+    "train_loss": 0.6428834018576629,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 10,
+    "train_loss": 0.6417436277846797,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 11,
+    "train_loss": 0.6406376770238809,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 12,
+    "train_loss": 0.6395642403563325,
+    "train_accuracy": 0.6190666666666667,
+    "train_precision": 0.6190642480269716,
+    "train_recall": 1.0,
+    "train_f1": 0.764718569731099
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 13,
+    "train_loss": 0.6385220711920901,
+    "train_accuracy": 0.6191047619047619,
+    "train_precision": 0.6190878324750941,
+    "train_recall": 1.0,
+    "train_f1": 0.7647365634620287
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 14,
+    "train_loss": 0.6375099785444152,
+    "train_accuracy": 0.6191809523809524,
+    "train_precision": 0.6191395459596761,
+    "train_recall": 0.9999692314003815,
+    "train_f1": 0.7647670182016417
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 15,
+    "train_loss": 0.6365268232051188,
+    "train_accuracy": 0.6193079365079365,
+    "train_precision": 0.6192303050705352,
+    "train_recall": 0.9998871818013989,
+    "train_f1": 0.7648122506776077
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 16,
+    "train_loss": 0.6355715150442405,
+    "train_accuracy": 0.6195428571428572,
+    "train_precision": 0.6194031747645616,
+    "train_recall": 0.9997025702036881,
+    "train_f1": 0.7648900607373229
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 17,
+    "train_loss": 0.6346430107412603,
+    "train_accuracy": 0.6199174603174603,
+    "train_precision": 0.6196689621843663,
+    "train_recall": 0.9994769338064861,
+    "train_f1": 0.7650265931348499
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 18,
+    "train_loss": 0.6337403117124469,
+    "train_accuracy": 0.6204063492063492,
+    "train_precision": 0.6200274959583487,
+    "train_recall": 0.9991077106110644,
+    "train_f1": 0.7651915040688724
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 19,
+    "train_loss": 0.6328624621533502,
+    "train_accuracy": 0.6210412698412698,
+    "train_precision": 0.6204883768352365,
+    "train_recall": 0.998666694016533,
+    "train_f1": 0.7654128837008214
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 20,
+    "train_loss": 0.6320085471679923,
+    "train_accuracy": 0.6217269841269841,
+    "train_precision": 0.6210082961072112,
+    "train_recall": 0.9980513220241636,
+    "train_f1": 0.7656273357408674
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 21,
+    "train_loss": 0.6311776909741768,
+    "train_accuracy": 0.6225650793650793,
+    "train_precision": 0.6216390717892988,
+    "train_recall": 0.9973436442329389,
+    "train_f1": 0.7658979569333523
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 22,
+    "train_loss": 0.6303690551803548,
+    "train_accuracy": 0.623415873015873,
+    "train_precision": 0.6222925285957654,
+    "train_recall": 0.9965539168427314,
+    "train_f1": 0.7661604453485988
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 23,
+    "train_loss": 0.6295818371314805,
+    "train_accuracy": 0.6245079365079365,
+    "train_precision": 0.6231287713442034,
+    "train_recall": 0.9955795778548132,
+    "train_f1": 0.7665053181828949
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 24,
+    "train_loss": 0.6288152683218761,
+    "train_accuracy": 0.625415873015873,
+    "train_precision": 0.6238556898670252,
+    "train_recall": 0.9945847264671493,
+    "train_f1": 0.7667595722390244
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 25,
+    "train_loss": 0.6280686128732824,
+    "train_accuracy": 0.6266539682539682,
+    "train_precision": 0.6248016717619287,
+    "train_recall": 0.9935488502799943,
+    "train_f1": 0.7671650537719562
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 26,
+    "train_loss": 0.6273411660762657,
+    "train_accuracy": 0.6277142857142857,
+    "train_precision": 0.6256392353097099,
+    "train_recall": 0.9925129740928391,
+    "train_f1": 0.7674865869085055
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 27,
+    "train_loss": 0.626632252993112,
+    "train_accuracy": 0.6287936507936508,
+    "train_precision": 0.6265389078697431,
+    "train_recall": 0.9911899243092449,
+    "train_f1": 0.7677665629927986
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 28,
+    "train_loss": 0.6259412271203131,
+    "train_accuracy": 0.6299365079365079,
+    "train_precision": 0.6274827225267045,
+    "train_recall": 0.9898771307255235,
+    "train_f1": 0.7680798997274337
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 29,
+    "train_loss": 0.6252674691087075,
+    "train_accuracy": 0.630984126984127,
+    "train_precision": 0.6283938864401033,
+    "train_recall": 0.9884207503435827,
+    "train_f1": 0.76832253075347
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 30,
+    "train_loss": 0.6246103855393341,
+    "train_accuracy": 0.6319428571428571,
+    "train_precision": 0.6292561713258134,
+    "train_recall": 0.9869438575618962,
+    "train_f1": 0.7685193689178882
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 31,
+    "train_loss": 0.6239694077530424,
+    "train_accuracy": 0.6330539682539682,
+    "train_precision": 0.6302277378391142,
+    "train_recall": 0.9854361961805912,
+    "train_f1": 0.7687851559061922
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 32,
+    "train_loss": 0.6233439907319188,
+    "train_accuracy": 0.6342666666666666,
+    "train_precision": 0.6312855779671613,
+    "train_recall": 0.9838464852003036,
+    "train_f1": 0.7690864557819584
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 33,
+    "train_loss": 0.6227336120305945,
+    "train_accuracy": 0.6352253968253968,
+    "train_precision": 0.6321886882129277,
+    "train_recall": 0.9822260056203975,
+    "train_f1": 0.7692598096309089
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 34,
+    "train_loss": 0.6221377707555321,
+    "train_accuracy": 0.6360888888888889,
+    "train_precision": 0.6330274621964461,
+    "train_recall": 0.9806465508399828,
+    "train_f1": 0.7693948001577173
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 35,
+    "train_loss": 0.6215559865904094,
+    "train_accuracy": 0.6371365079365079,
+    "train_precision": 0.6339879264429494,
+    "train_recall": 0.9790978646591865,
+    "train_f1": 0.7696258046831855
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 36,
+    "train_loss": 0.6209877988657616,
+    "train_accuracy": 0.6382666666666666,
+    "train_precision": 0.6349823815835925,
+    "train_recall": 0.9777030214764826,
+    "train_f1": 0.7699259779751161
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 37,
+    "train_loss": 0.6204327656710794,
+    "train_accuracy": 0.6394095238095238,
+    "train_precision": 0.6360040357875465,
+    "train_recall": 0.9762363848946688,
+    "train_f1": 0.7702204618005123
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 38,
+    "train_loss": 0.6198904630076029,
+    "train_accuracy": 0.6402349206349206,
+    "train_precision": 0.6368424932481789,
+    "train_recall": 0.9746364177145084,
+    "train_f1": 0.7703357233474248
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 39,
+    "train_loss": 0.6193604839801021,
+    "train_accuracy": 0.6409333333333334,
+    "train_precision": 0.6375946721504271,
+    "train_recall": 0.9730672191339664,
+    "train_f1": 0.7703944296705304
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 40,
+    "train_loss": 0.6188424380259789,
+    "train_accuracy": 0.6419301587301587,
+    "train_precision": 0.6385066379136061,
+    "train_recall": 0.9717544255502452,
+    "train_f1": 0.7706472760398875
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 41,
+    "train_loss": 0.61833595018008,
+    "train_accuracy": 0.6429269841269841,
+    "train_precision": 0.6394387710275005,
+    "train_recall": 0.9703595823675412,
+    "train_f1": 0.7708860398512198
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 42,
+    "train_loss": 0.6178406603736571,
+    "train_accuracy": 0.6439111111111111,
+    "train_precision": 0.6403847718213618,
+    "train_recall": 0.9688724333859818,
+    "train_f1": 0.7711025312426026
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 43,
+    "train_loss": 0.6173562227659709,
+    "train_accuracy": 0.6444063492063492,
+    "train_precision": 0.6410123966942148,
+    "train_recall": 0.9673237472051855,
+    "train_f1": 0.7710658197009459
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 44,
+    "train_loss": 0.616882305107078,
+    "train_accuracy": 0.6453079365079365,
+    "train_precision": 0.6419058005589258,
+    "train_recall": 0.9658673668232447,
+    "train_f1": 0.7712479321245476
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 45,
+    "train_loss": 0.6164185881304002,
+    "train_accuracy": 0.6460507936507937,
+    "train_precision": 0.6427101775204556,
+    "train_recall": 0.9643289368423212,
+    "train_f1": 0.7713365737607416
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 46,
+    "train_loss": 0.6159647649737271,
+    "train_accuracy": 0.6468698412698413,
+    "train_precision": 0.6435307663838362,
+    "train_recall": 0.963005887058727,
+    "train_f1": 0.7715029908630776
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 47,
+    "train_loss": 0.6155205406273501,
+    "train_accuracy": 0.6477968253968254,
+    "train_precision": 0.6444488741029941,
+    "train_recall": 0.9615905314762774,
+    "train_f1": 0.7717070119266131
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 48,
+    "train_loss": 0.6150856314080813,
+    "train_accuracy": 0.6484952380952381,
+    "train_precision": 0.6451821840030869,
+    "train_recall": 0.9603290188919201,
+    "train_f1": 0.7718254131805631
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 49,
+    "train_loss": 0.6146597644579633,
+    "train_accuracy": 0.6492952380952381,
+    "train_precision": 0.6460671827481338,
+    "train_recall": 0.9586777707123957,
+    "train_f1": 0.771923594651956
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 50,
+    "train_loss": 0.614242677266515,
+    "train_accuracy": 0.6498285714285714,
+    "train_precision": 0.6467510326282815,
+    "train_recall": 0.9571188283317266,
+    "train_f1": 0.7719050100498771
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 51,
+    "train_loss": 0.6138341172154193,
+    "train_accuracy": 0.6507047619047619,
+    "train_precision": 0.6476015785670614,
+    "train_recall": 0.9559598777460975,
+    "train_f1": 0.7721327092739096
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 52,
+    "train_loss": 0.6134338411445949,
+    "train_accuracy": 0.651320634920635,
+    "train_precision": 0.6483022810377851,
+    "train_recall": 0.9546470841623762,
+    "train_f1": 0.7722014128266071
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 53,
+    "train_loss": 0.6130416149386486,
+    "train_accuracy": 0.6517714285714286,
+    "train_precision": 0.6489073518117713,
+    "train_recall": 0.9532419847797994,
+    "train_f1": 0.772169881860326
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 54,
+    "train_loss": 0.6126572131327388,
+    "train_accuracy": 0.6522031746031746,
+    "train_precision": 0.6495163570698658,
+    "train_recall": 0.9517650919981129,
+    "train_f1": 0.7721153526142378
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 55,
+    "train_loss": 0.6122804185369309,
+    "train_accuracy": 0.6528380952380952,
+    "train_precision": 0.6502111599062759,
+    "train_recall": 0.9505958852126111,
+    "train_f1": 0.7722205558888223
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 56,
+    "train_loss": 0.6119110218781677,
+    "train_accuracy": 0.653568253968254,
+    "train_precision": 0.6509523508194647,
+    "train_recall": 0.9495497528255831,
+    "train_f1": 0.7723971651322952
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 57,
+    "train_loss": 0.611548821459009,
+    "train_accuracy": 0.654184126984127,
+    "train_precision": 0.6516270417294981,
+    "train_recall": 0.9484420832393182,
+    "train_f1": 0.7725047615865273
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 58,
+    "train_loss": 0.61119362283234,
+    "train_accuracy": 0.6546666666666666,
+    "train_precision": 0.6522423899992937,
+    "train_recall": 0.9471703144550881,
+    "train_f1": 0.7725143459421479
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 59,
+    "train_loss": 0.6108452384912866,
+    "train_accuracy": 0.6552444444444444,
+    "train_precision": 0.6529255601571626,
+    "train_recall": 0.9459190580706037,
+    "train_f1": 0.7725763014278115
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "classic FedAvg",
+    "round": 60,
+    "train_loss": 0.6105034875735998,
+    "train_accuracy": 0.6559047619047619,
+    "train_precision": 0.6536308489126964,
+    "train_recall": 0.9448626694837029,
+    "train_f1": 0.772716788217088
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 1,
+    "train_loss": 0.6553429891149779,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 2,
+    "train_loss": 0.6518288357930793,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 3,
+    "train_loss": 0.6507554904390622,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 4,
+    "train_loss": 0.6496415836294062,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 5,
+    "train_loss": 0.6484386566670975,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 6,
+    "train_loss": 0.6472164595799796,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 7,
+    "train_loss": 0.6460081638721629,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 8,
+    "train_loss": 0.6448255926983761,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 9,
+    "train_loss": 0.6436722553810791,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 10,
+    "train_loss": 0.6425487209018405,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 11,
+    "train_loss": 0.6414545610475049,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 12,
+    "train_loss": 0.6403890259947863,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 13,
+    "train_loss": 0.6393512758516988,
+    "train_accuracy": 0.6190603174603174,
+    "train_precision": 0.6190603174603174,
+    "train_recall": 1.0,
+    "train_f1": 0.7647155708582678
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 14,
+    "train_loss": 0.6383404593051373,
+    "train_accuracy": 0.6190666666666667,
+    "train_precision": 0.6190642480269716,
+    "train_recall": 1.0,
+    "train_f1": 0.764718569731099
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 15,
+    "train_loss": 0.6373557399239661,
+    "train_accuracy": 0.6190920634920635,
+    "train_precision": 0.6190799707927236,
+    "train_recall": 1.0,
+    "train_f1": 0.7647305654576327
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 16,
+    "train_loss": 0.6363963045769822,
+    "train_accuracy": 0.619136507936508,
+    "train_precision": 0.6191090001650941,
+    "train_recall": 0.9999897438001272,
+    "train_f1": 0.7647497137120179
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 17,
+    "train_loss": 0.6354613657480922,
+    "train_accuracy": 0.6192126984126984,
+    "train_precision": 0.6191607183681764,
+    "train_recall": 0.9999589752005087,
+    "train_f1": 0.7647801702161039
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 18,
+    "train_loss": 0.6345501617757948,
+    "train_accuracy": 0.6193269841269842,
+    "train_precision": 0.6192405899465186,
+    "train_recall": 0.9998974380012717,
+    "train_f1": 0.7648230956303445
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 19,
+    "train_loss": 0.6336619563939517,
+    "train_accuracy": 0.6195301587301587,
+    "train_precision": 0.6193937853466354,
+    "train_recall": 0.999712826403561,
+    "train_f1": 0.7648859035123514
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 20,
+    "train_loss": 0.6327960380451155,
+    "train_accuracy": 0.6198031746031746,
+    "train_precision": 0.6195843584511027,
+    "train_recall": 0.9995692396053414,
+    "train_f1": 0.764989148394237
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 21,
+    "train_loss": 0.631951719127968,
+    "train_accuracy": 0.6202285714285715,
+    "train_precision": 0.6198834501800414,
+    "train_recall": 0.9993333470082665,
+    "train_f1": 0.7651479457218242
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 22,
+    "train_loss": 0.6311283352344169,
+    "train_accuracy": 0.6207365079365079,
+    "train_precision": 0.6202480864991531,
+    "train_recall": 0.9990051486123361,
+    "train_f1": 0.7653293733107046
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 23,
+    "train_loss": 0.6303252443955515,
+    "train_accuracy": 0.6212888888888889,
+    "train_precision": 0.6206703091429555,
+    "train_recall": 0.9984820824188222,
+    "train_f1": 0.7654970415364352
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 24,
+    "train_loss": 0.6295418263431578,
+    "train_accuracy": 0.6219492063492064,
+    "train_precision": 0.6211439404093981,
+    "train_recall": 0.9980718344239092,
+    "train_f1": 0.7657364530178502
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 25,
+    "train_loss": 0.6287774817891557,
+    "train_accuracy": 0.6226603174603175,
+    "train_precision": 0.6216800158528244,
+    "train_recall": 0.9974667186314127,
+    "train_f1": 0.7659653226536872
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 26,
+    "train_loss": 0.6280316317237905,
+    "train_accuracy": 0.623447619047619,
+    "train_precision": 0.6222936584678633,
+    "train_recall": 0.9966769912412053,
+    "train_f1": 0.7661976717140457
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 27,
+    "train_loss": 0.6273037167328451,
+    "train_accuracy": 0.6243428571428571,
+    "train_precision": 0.622966384398255,
+    "train_recall": 0.9959590572501077,
+    "train_f1": 0.7664948575668358
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 28,
+    "train_loss": 0.6265931963339038,
+    "train_accuracy": 0.6252126984126984,
+    "train_precision": 0.6236525271744371,
+    "train_recall": 0.9950667678611721,
+    "train_f1": 0.7667492521861453
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 29,
+    "train_loss": 0.6258995483315924,
+    "train_accuracy": 0.6262095238095238,
+    "train_precision": 0.6244042251706814,
+    "train_recall": 0.9942872966708375,
+    "train_f1": 0.7670852422436916
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 30,
+    "train_loss": 0.6252222681916475,
+    "train_accuracy": 0.627231746031746,
+    "train_precision": 0.625217082539785,
+    "train_recall": 0.9932411642838096,
+    "train_f1": 0.7673863001541223
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 31,
+    "train_loss": 0.6245608684336192,
+    "train_accuracy": 0.6284253968253968,
+    "train_precision": 0.6261186930946788,
+    "train_recall": 0.992348874894874,
+    "train_f1": 0.7677981232765291
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 32,
+    "train_loss": 0.6239148780419778,
+    "train_accuracy": 0.6293015873015873,
+    "train_precision": 0.6268755473387175,
+    "train_recall": 0.9911181309101352,
+    "train_f1": 0.7679977111703628
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 33,
+    "train_loss": 0.6232838418953561,
+    "train_accuracy": 0.6302793650793651,
+    "train_precision": 0.6277047549054677,
+    "train_recall": 0.9898668745256508,
+    "train_f1": 0.7682431276093593
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 34,
+    "train_loss": 0.6226673202136344,
+    "train_accuracy": 0.6312825396825397,
+    "train_precision": 0.6285479548522134,
+    "train_recall": 0.9886566429406576,
+    "train_f1": 0.7685089590018537
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 35,
+    "train_loss": 0.6220648880225521,
+    "train_accuracy": 0.632431746031746,
+    "train_precision": 0.6294782949790795,
+    "train_recall": 0.9875182047547743,
+    "train_f1": 0.7688591482939529
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 36,
+    "train_loss": 0.6214761346355072,
+    "train_accuracy": 0.633447619047619,
+    "train_precision": 0.6304071246819338,
+    "train_recall": 0.9858977251748682,
+    "train_f1": 0.7690590673077692
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 37,
+    "train_loss": 0.6209006631521925,
+    "train_accuracy": 0.6345079365079365,
+    "train_precision": 0.6313241919042452,
+    "train_recall": 0.9845541629915284,
+    "train_f1": 0.7693312549838314
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 38,
+    "train_loss": 0.6203380899736989,
+    "train_accuracy": 0.6354984126984127,
+    "train_precision": 0.6321970970911561,
+    "train_recall": 0.9832311132079342,
+    "train_f1": 0.769574100014851
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 39,
+    "train_loss": 0.6197880443337082,
+    "train_accuracy": 0.6364761904761905,
+    "train_precision": 0.6330787289620738,
+    "train_recall": 0.9818362700252302,
+    "train_f1": 0.7697986064482926
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 40,
+    "train_loss": 0.6192501678453911,
+    "train_accuracy": 0.637631746031746,
+    "train_precision": 0.6340813064213368,
+    "train_recall": 0.9804516830423992,
+    "train_f1": 0.7701125813143214
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 41,
+    "train_loss": 0.6187241140636128,
+    "train_accuracy": 0.6386285714285714,
+    "train_precision": 0.6350094472682758,
+    "train_recall": 0.9789235092613485,
+    "train_f1": 0.7703240385779428
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 42,
+    "train_loss": 0.618209548062055,
+    "train_accuracy": 0.639568253968254,
+    "train_precision": 0.6358905242930917,
+    "train_recall": 0.9774773850792804,
+    "train_f1": 0.7705230818982941
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 43,
+    "train_loss": 0.6177061460248482,
+    "train_accuracy": 0.6404444444444445,
+    "train_precision": 0.636706625280959,
+    "train_recall": 0.9761851038953047,
+    "train_f1": 0.77071946232641
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 44,
+    "train_loss": 0.617213594852321,
+    "train_accuracy": 0.6412761904761904,
+    "train_precision": 0.6375431887558284,
+    "train_recall": 0.9746364177145084,
+    "train_f1": 0.7708481203129498
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 45,
+    "train_loss": 0.6167315917804598,
+    "train_accuracy": 0.642095238095238,
+    "train_precision": 0.6383741741014358,
+    "train_recall": 0.9730979877335849,
+    "train_f1": 0.7709728271468504
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 46,
+    "train_loss": 0.6162598440136857,
+    "train_accuracy": 0.6431365079365079,
+    "train_precision": 0.6392895209055708,
+    "train_recall": 0.9719492933478288,
+    "train_f1": 0.7712785871246032
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 47,
+    "train_loss": 0.6157980683705518,
+    "train_accuracy": 0.6437015873015873,
+    "train_precision": 0.6399778119017501,
+    "train_recall": 0.9702980451683042,
+    "train_f1": 0.7712581879842988
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 48,
+    "train_loss": 0.6153459909419688,
+    "train_accuracy": 0.6443936507936507,
+    "train_precision": 0.6407282297559453,
+    "train_recall": 0.968800639986872,
+    "train_f1": 0.7713287170107134
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 49,
+    "train_loss": 0.6149033467615743,
+    "train_accuracy": 0.6452126984126985,
+    "train_precision": 0.6415623108160503,
+    "train_recall": 0.9673442596049312,
+    "train_f1": 0.771470052961986
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 50,
+    "train_loss": 0.614469879487864,
+    "train_accuracy": 0.6461142857142858,
+    "train_precision": 0.6424172571592249,
+    "train_recall": 0.9661032594203196,
+    "train_f1": 0.7716922471951535
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 51,
+    "train_loss": 0.6140453410977105,
+    "train_accuracy": 0.6469396825396826,
+    "train_precision": 0.6432435019865014,
+    "train_recall": 0.9647596972369797,
+    "train_f1": 0.7718584223288024
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 52,
+    "train_loss": 0.6136294915909003,
+    "train_accuracy": 0.6479174603174603,
+    "train_precision": 0.6441564674826014,
+    "train_recall": 0.9635392094521138,
+    "train_f1": 0.7721237574328017
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 53,
+    "train_loss": 0.613222098705331,
+    "train_accuracy": 0.648768253968254,
+    "train_precision": 0.6450215557251594,
+    "train_recall": 0.9621341100695371,
+    "train_f1": 0.7722926331301274
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 54,
+    "train_loss": 0.6128229376425117,
+    "train_accuracy": 0.6494857142857143,
+    "train_precision": 0.6458181065986348,
+    "train_recall": 0.960626448688232,
+    "train_f1": 0.7723764286774528
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 55,
+    "train_loss": 0.6124317908030252,
+    "train_accuracy": 0.6502349206349206,
+    "train_precision": 0.6466374410532284,
+    "train_recall": 0.9591392997066727,
+    "train_f1": 0.7724802167484429
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 56,
+    "train_loss": 0.6120484475316089,
+    "train_accuracy": 0.6508952380952381,
+    "train_precision": 0.6473903879752627,
+    "train_recall": 0.9576931755246046,
+    "train_f1": 0.7725471378103567
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 57,
+    "train_loss": 0.6116727038715316,
+    "train_accuracy": 0.6515238095238095,
+    "train_precision": 0.6481207293252421,
+    "train_recall": 0.9562675637422822,
+    "train_f1": 0.7726020359544418
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 58,
+    "train_loss": 0.6113043623279404,
+    "train_accuracy": 0.6520952380952381,
+    "train_precision": 0.6488038410882154,
+    "train_recall": 0.9548932329593239,
+    "train_f1": 0.7726376850080705
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 59,
+    "train_loss": 0.6109432316398686,
+    "train_accuracy": 0.6526031746031746,
+    "train_precision": 0.6494324730206406,
+    "train_recall": 0.9535804393756026,
+    "train_f1": 0.7726526694561365
+  },
+  {
+    "model_name": "Logistic Regression",
+    "setting": "source-weighted FedAvg",
+    "round": 60,
+    "train_loss": 0.610589126560598,
+    "train_accuracy": 0.6531174603174603,
+    "train_precision": 0.6500833251641996,
+    "train_recall": 0.9521958523927714,
+    "train_f1": 0.772657667404584
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 1,
+    "train_loss": 0.6384674940750712,
+    "train_accuracy": 0.6190666666666667,
+    "train_precision": 0.6190642480269716,
+    "train_recall": 1.0,
+    "train_f1": 0.764718569731099
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 2,
+    "train_loss": 0.6090760114103083,
+    "train_accuracy": 0.6448698412698413,
+    "train_precision": 0.6391151567885948,
+    "train_recall": 0.9793337572562614,
+    "train_f1": 0.7734653128505874
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 3,
+    "train_loss": 0.588787536757392,
+    "train_accuracy": 0.6834031746031746,
+    "train_precision": 0.6896417197452229,
+    "train_recall": 0.8883817767840659,
+    "train_f1": 0.7764968489749083
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 4,
+    "train_loss": 0.585023861889547,
+    "train_accuracy": 0.687631746031746,
+    "train_precision": 0.7077269756080778,
+    "train_recall": 0.8439416627351234,
+    "train_f1": 0.7698554521214389
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 5,
+    "train_loss": 0.5846625023653583,
+    "train_accuracy": 0.6884634920634921,
+    "train_precision": 0.7130903043581553,
+    "train_recall": 0.8311829500933314,
+    "train_f1": 0.767621275769473
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 6,
+    "train_loss": 0.5846553806041678,
+    "train_accuracy": 0.6881650793650793,
+    "train_precision": 0.7146342328915385,
+    "train_recall": 0.8261881807552666,
+    "train_f1": 0.7663730116447217
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 7,
+    "train_loss": 0.584702950758215,
+    "train_accuracy": 0.688184126984127,
+    "train_precision": 0.7156404017717887,
+    "train_recall": 0.8235420811880781,
+    "train_f1": 0.7658091128013161
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 8,
+    "train_loss": 0.5847371226089696,
+    "train_accuracy": 0.688063492063492,
+    "train_precision": 0.7163017814981756,
+    "train_recall": 0.8214600726138951,
+    "train_f1": 0.7652853552967257
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 9,
+    "train_loss": 0.5847530209723919,
+    "train_accuracy": 0.6880888888888889,
+    "train_precision": 0.7168977205473556,
+    "train_recall": 0.8199524112325901,
+    "train_f1": 0.7649698593436035
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 10,
+    "train_loss": 0.5847678127233826,
+    "train_accuracy": 0.6879809523809524,
+    "train_precision": 0.7171973950145969,
+    "train_recall": 0.8188755102459436,
+    "train_f1": 0.7646712350414457
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 11,
+    "train_loss": 0.5847675211106382,
+    "train_accuracy": 0.6878539682539683,
+    "train_precision": 0.7173418461400117,
+    "train_recall": 0.8181575762548461,
+    "train_f1": 0.7644401002362163
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 12,
+    "train_loss": 0.584752118428359,
+    "train_accuracy": 0.6878984126984127,
+    "train_precision": 0.7175317663151074,
+    "train_recall": 0.8177780968595516,
+    "train_f1": 0.7643821958912119
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 13,
+    "train_loss": 0.5847355531987927,
+    "train_accuracy": 0.6878730158730159,
+    "train_precision": 0.7176665525998235,
+    "train_recall": 0.8173575926647658,
+    "train_f1": 0.7642748911521569
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 14,
+    "train_loss": 0.5847156699841222,
+    "train_accuracy": 0.6877777777777778,
+    "train_precision": 0.7176833058565985,
+    "train_recall": 0.817060162868454,
+    "train_f1": 0.7641543368264551
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 15,
+    "train_loss": 0.5846971446466824,
+    "train_accuracy": 0.6877714285714286,
+    "train_precision": 0.7178574004616273,
+    "train_recall": 0.8165883776743041,
+    "train_f1": 0.7640465611715144
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 16,
+    "train_loss": 0.5846835496076752,
+    "train_accuracy": 0.687815873015873,
+    "train_precision": 0.7180639397958908,
+    "train_recall": 0.8161678734795184,
+    "train_f1": 0.763979359174367
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 17,
+    "train_loss": 0.5846703103780746,
+    "train_accuracy": 0.6877269841269841,
+    "train_precision": 0.7181700786548308,
+    "train_recall": 0.8156550634858772,
+    "train_f1": 0.7638146552759089
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 18,
+    "train_loss": 0.5846591839442769,
+    "train_accuracy": 0.6877460317460318,
+    "train_precision": 0.7183314959064538,
+    "train_recall": 0.8152858402904556,
+    "train_f1": 0.7637439710997098
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 19,
+    "train_loss": 0.5846542626507935,
+    "train_accuracy": 0.6876253968253968,
+    "train_precision": 0.7183502246652623,
+    "train_recall": 0.8149166170950339,
+    "train_f1": 0.7635925059223202
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 20,
+    "train_loss": 0.5846468273383048,
+    "train_accuracy": 0.6875619047619047,
+    "train_precision": 0.7183760954301683,
+    "train_recall": 0.814680724497959,
+    "train_f1": 0.7635035443950499
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 21,
+    "train_loss": 0.5846397641880053,
+    "train_accuracy": 0.6875619047619047,
+    "train_precision": 0.718490702619554,
+    "train_recall": 0.8143832947016472,
+    "train_f1": 0.7634376036573934
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 22,
+    "train_loss": 0.5846336068207546,
+    "train_accuracy": 0.6873523809523809,
+    "train_precision": 0.7185490444706095,
+    "train_recall": 0.8136756169104223,
+    "train_f1": 0.7631594135980607
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 23,
+    "train_loss": 0.5846227708123979,
+    "train_accuracy": 0.6872952380952381,
+    "train_precision": 0.7186449279959398,
+    "train_recall": 0.8132756251153822,
+    "train_f1": 0.7630374850247543
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 24,
+    "train_loss": 0.5846127068193422,
+    "train_accuracy": 0.6873904761904762,
+    "train_precision": 0.71877832976756,
+    "train_recall": 0.8131833193165269,
+    "train_f1": 0.7630720369568357
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "classic FedAvg",
+    "round": 25,
+    "train_loss": 0.5845988533822317,
+    "train_accuracy": 0.6873650793650794,
+    "train_precision": 0.718831616366802,
+    "train_recall": 0.8129781953190703,
+    "train_f1": 0.7630117339031833
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 1,
+    "train_loss": 0.6386933093411582,
+    "train_accuracy": 0.6190666666666667,
+    "train_precision": 0.6190642480269716,
+    "train_recall": 1.0,
+    "train_f1": 0.764718569731099
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 2,
+    "train_loss": 0.6058081944717538,
+    "train_accuracy": 0.65,
+    "train_precision": 0.6438878966704469,
+    "train_recall": 0.9724621033414699,
+    "train_f1": 0.774778455541982
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 3,
+    "train_loss": 0.586966001171938,
+    "train_accuracy": 0.6851238095238095,
+    "train_precision": 0.6956219937445387,
+    "train_recall": 0.8736333613669464,
+    "train_f1": 0.7745311540997022
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 4,
+    "train_loss": 0.5848181615115808,
+    "train_accuracy": 0.6876444444444444,
+    "train_precision": 0.7106966519531727,
+    "train_recall": 0.8355726036388997,
+    "train_f1": 0.768092167288909
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 5,
+    "train_loss": 0.5846713423517134,
+    "train_accuracy": 0.6881269841269841,
+    "train_precision": 0.7149432232153964,
+    "train_recall": 0.8252548665668397,
+    "train_f1": 0.7661486898232786
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 6,
+    "train_loss": 0.5846953458588215,
+    "train_accuracy": 0.6878285714285715,
+    "train_precision": 0.7163820967149853,
+    "train_recall": 0.8206190642243236,
+    "train_f1": 0.7649659880205171
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 7,
+    "train_loss": 0.5847386572571974,
+    "train_accuracy": 0.6875238095238095,
+    "train_precision": 0.717029978875455,
+    "train_recall": 0.8180960390556091,
+    "train_f1": 0.7642361327348417
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 8,
+    "train_loss": 0.5847811440291977,
+    "train_accuracy": 0.6875238095238095,
+    "train_precision": 0.7175972240998603,
+    "train_recall": 0.8166088900740498,
+    "train_f1": 0.763908144125647
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 9,
+    "train_loss": 0.5848193504811812,
+    "train_accuracy": 0.687504761904762,
+    "train_precision": 0.7180337048209092,
+    "train_recall": 0.8154191708888023,
+    "train_f1": 0.7636340933976219
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 10,
+    "train_loss": 0.5848453511824684,
+    "train_accuracy": 0.6873460317460317,
+    "train_precision": 0.7181986707057919,
+    "train_recall": 0.8145679062993579,
+    "train_f1": 0.7633537895207293
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 11,
+    "train_loss": 0.5848634436552309,
+    "train_accuracy": 0.6872063492063492,
+    "train_precision": 0.7183045048469873,
+    "train_recall": 0.8139217657073701,
+    "train_f1": 0.7631296788679846
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 12,
+    "train_loss": 0.5848759336582784,
+    "train_accuracy": 0.6871365079365079,
+    "train_precision": 0.7183673839020502,
+    "train_recall": 0.8135730549116941,
+    "train_f1": 0.7630118407510363
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 13,
+    "train_loss": 0.5848946704720103,
+    "train_accuracy": 0.6872063492063492,
+    "train_precision": 0.7185220755452066,
+    "train_recall": 0.8133576747143648,
+    "train_f1": 0.76300433437724
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 14,
+    "train_loss": 0.5849233281532569,
+    "train_accuracy": 0.6871238095238095,
+    "train_precision": 0.7186791460339917,
+    "train_recall": 0.8127320465221226,
+    "train_f1": 0.7628174274657783
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 15,
+    "train_loss": 0.5849530363730376,
+    "train_accuracy": 0.6870857142857143,
+    "train_precision": 0.7186955732946299,
+    "train_recall": 0.8125884597239031,
+    "train_f1": 0.762763427713221
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 16,
+    "train_loss": 0.5849782706385213,
+    "train_accuracy": 0.6871428571428572,
+    "train_precision": 0.7188932562340574,
+    "train_recall": 0.8122294927283543,
+    "train_f1": 0.7627165166640181
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 17,
+    "train_loss": 0.5850003780046981,
+    "train_accuracy": 0.6869206349206349,
+    "train_precision": 0.7191262595031102,
+    "train_recall": 0.8110397735431069,
+    "train_f1": 0.7623225010363144
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 18,
+    "train_loss": 0.5850230147788508,
+    "train_accuracy": 0.687047619047619,
+    "train_precision": 0.7195006465007011,
+    "train_recall": 0.8104141453508646,
+    "train_f1": 0.762256178734734
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 19,
+    "train_loss": 0.5850626695059062,
+    "train_accuracy": 0.6870666666666667,
+    "train_precision": 0.7198125336226783,
+    "train_recall": 0.8096654427601485,
+    "train_f1": 0.762099674188488
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 20,
+    "train_loss": 0.5850964028463596,
+    "train_accuracy": 0.6868253968253968,
+    "train_precision": 0.7198919185372489,
+    "train_recall": 0.808824434370577,
+    "train_f1": 0.7617713681302494
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 21,
+    "train_loss": 0.5851385324653474,
+    "train_accuracy": 0.686736507936508,
+    "train_precision": 0.719996711217489,
+    "train_recall": 0.8083218805768086,
+    "train_f1": 0.7616070350059189
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 22,
+    "train_loss": 0.5851890905078618,
+    "train_accuracy": 0.6868253968253968,
+    "train_precision": 0.720314257753551,
+    "train_recall": 0.8077475333839306,
+    "train_f1": 0.7615294987889132
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 23,
+    "train_loss": 0.5852489358440278,
+    "train_accuracy": 0.6867555555555556,
+    "train_precision": 0.720540293040293,
+    "train_recall": 0.8069885745933417,
+    "train_f1": 0.7613182262387398
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 24,
+    "train_loss": 0.5853159101935783,
+    "train_accuracy": 0.6867619047619048,
+    "train_precision": 0.7208867202905596,
+    "train_recall": 0.8061270538040245,
+    "train_f1": 0.761127761665206
+  },
+  {
+    "model_name": "Keras/TensorFlow Deep Neural Network",
+    "setting": "source-weighted FedAvg",
+    "round": 25,
+    "train_loss": 0.585392470369961,
+    "train_accuracy": 0.6867873015873016,
+    "train_precision": 0.7212215843857634,
+    "train_recall": 0.80534758261369,
+    "train_f1": 0.760966580578262
+  }
+]
