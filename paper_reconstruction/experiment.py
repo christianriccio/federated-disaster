@@ -85,22 +85,30 @@ def generate_synthetic(spec: dict, offset: int = 0):
 
 
 def stratified_split(X: np.ndarray, y: np.ndarray, seed: int):
-    """Three disjoint 60/15/25 partitions per class; no test leakage."""
+    """Classwise stratified partition recovered from archived node diagnostics.
+
+    Generate a per-node RNG using the same seed used for synthetic generation,
+    shuffle each class (0 then 1) independently, and use FLOOR classwise
+    sample counts: 25% test, 15% validation, the remainder training.
+    Unlike rounding global 60/15/25 counts, this yields the historical
+    126,006 training records across all five reference nodes.
+    """
     rng = np.random.default_rng(seed)
-    buckets = [[], [], []]
+    train, val, test = [], [], []
     for label in (0, 1):
-        idx = rng.permutation(np.flatnonzero(y == label))
-        n_test = int(round(len(idx) * TEST_SIZE))
-        n_val = int(round(len(idx) * VAL_SIZE))
-        buckets[0].extend(idx[: len(idx) - n_test - n_val])
-        buckets[1].extend(idx[len(idx) - n_test - n_val: len(idx) - n_test])
-        buckets[2].extend(idx[len(idx) - n_test:])
-    train, val, test = [rng.permutation(np.asarray(p, dtype=int)) for p in buckets]
+        idx = np.flatnonzero(y == label)
+        rng.shuffle(idx)
+        n_test = int(len(idx) * TEST_SIZE)
+        n_val = int(len(idx) * VAL_SIZE)
+        test.extend(idx[:n_test])
+        val.extend(idx[n_test:n_test+n_val])
+        train.extend(idx[n_test+n_val:])
+    partitions = [np.asarray(p, dtype=int) for p in (train, val, test)]
     assert len(set(train) & set(val)) == 0
     assert len(set(train) & set(test)) == 0
     assert len(set(val) & set(test)) == 0
-    assert len(train) + len(val) + len(test) == len(y)
-    return [(X[ix], y[ix]) for ix in (train, val, test)]
+    assert sum(map(len, partitions)) == len(y)
+    return [(X[idx], y[idx]) for idx in partitions]
 
 
 def make_nodes(seed_offset: int = 0, sample_cap: int | None = None):
@@ -111,7 +119,7 @@ def make_nodes(seed_offset: int = 0, sample_cap: int | None = None):
             spec["n_samples"] = min(sample_cap, spec["n_samples"])
         X, y, flip = generate_synthetic(spec, seed_offset)
         (Xt, yt), (Xv, yv), (Xs, ys) = stratified_split(
-            X, y, seed=int(spec["seed"]) + int(seed_offset) + 1_000
+            X, y, seed=int(spec["seed"]) + int(seed_offset)
         )
         nodes.append(Node(
             name=spec["name"], node_type=spec["node_type"],
@@ -265,7 +273,7 @@ def summarize(rows):
         entry = dict(zip(("model_name", "paradigm", "setting", "policy"), key))
         entry["n_seeds"] = len(entries)
         for field in ("f1", "recall", "specificity", "balanced_accuracy",
-                      "false_positive_rate", "false_negative_rate", "roc_auc", "pr_auc"):
+                      "false_positive_rate", "false_negative_rate", "roc_auc", "pr_auc", "threshold"):
             values = np.array([v[field] for v in entries])
             entry[field + "_mean"] = float(values.mean())
             entry[field + "_std"] = float(values.std(ddof=0))
@@ -311,6 +319,20 @@ def save_json_and_csv(path: Path, rows):
 
 def self_check():
     """Fast smoke test of data partitioning and validation-only thresholds."""
+    full_nodes = make_nodes(0)
+    expected_counts = [(36001,8999,15000),(27002,6749,11249),
+                       (18001,4499,7500),(30002,7499,12499),
+                       (15000,3750,6250)]
+    counts = [(len(n.y_train),len(n.y_val),len(n.y_test)) for n in full_nodes]
+    assert counts == expected_counts, (counts, expected_counts)
+    assert sum(len(n.y_train) for n in full_nodes) == 126006
+    # Feature means are a fingerprint of the original RNG/split sequence.
+    path = Path(__file__).resolve().parent / "archived_results" / "node_non_iid_diagnostics.json"
+    reference = json.loads(path.read_text(encoding="utf-8"))
+    for node, saved in zip(full_nodes, reference):
+        assert node.name == saved["node_name"]
+        assert abs(float(node.X_train[:, 0].mean()) - saved["rainfall_1h_train_mean"]) < 1e-12
+        assert abs(float(node.X_train[:, 3].mean()) - saved["river_level_train_mean"]) < 1e-12
     nodes = make_nodes(11, sample_cap=100)
     assert len(nodes) == 5
     assert all(n.X_train.shape[1] == len(FEATURES) for n in nodes)
