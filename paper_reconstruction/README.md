@@ -1,43 +1,60 @@
-# Paper-aligned FL reconstruction (under review)
+# Reproduced synthetic federated-learning experiment (FGCS paper)
 
-This directory is a **reconstruction**, assembled from the updated `config.py` and `model.py` provided by the authors and the older public repository. It is **not established to be the exact source tree** used to produce the archived paper results. Do not cite it as an independently verified reproduction until its outputs have been compared with the deposited reference JSONs.
+This directory contains a **numerically reconstructed** implementation of the experimental protocol used for the civil-protection federated learning manuscript. The reconstruction combines the historical public source structure with the author-supplied later `config.py` and `model.py`. The original complete post-September source tree was not recovered, so this is **not claimed to be the exact original source commit**.
 
-## Scope and boundaries
+### Verified results
 
-- Synthetic cross-silo experiment only: five logical nodes; 10 common predictors; node-specific bounded Beta distributions, label biases and label corruption.
-- Single synchronous aggregation level with FedAvg and exogenous source-weighted FedAvg.
-- Separate stratified training, validation, and test partitions, approximately 60/15/25 per node.
-- Three threshold-selection policies fitted **only on validation predictions**. Test predictions are never supplied to the threshold selector.
-- Logistic local-only, federated and centralized full-data reference; ten configured synthetic seed offsets.
-- Optional Keras/TensorFlow reference (128/64/32, Swish, dropout, AdamW, no BN in the active architecture). This is not a ten-seed DNN study.
-- Sensitivity to four fixed source-weight profiles; communication is a **scalar-count proxy**, not empirical network traffic.
-- No real institutional data, verified event horizon, georeferenced disaster reconstruction, hierarchical deployment, production secure aggregation, privacy guarantee, or poisoning defence.
+The reconstructed protocol was independently checked by rerunning it against frozen author-supplied output records:
 
-## Files
+- **240/240** logistic-regression policy observations (10 seed offsets × 8 settings × 3 threshold policies) matched the archived results, within floating-point precision (largest observed absolute deviation: `2.22e-16`).
+- **24/24** multi-seed summary groups matched (largest observed absolute deviation: `3.33e-16`).
+- **12/12** source-weight sensitivity policy observations across four weight profiles matched (largest observed absolute deviation: `1.11e-16`).
+- Five reference node partition sizes and train-feature means matched the archived non-IID diagnostics, with **126,006** training examples in total.
+- Thresholds are selected using the **validation** partition and only subsequently evaluated on **test**. No test observations are used to select thresholds.
 
-- `config.py`: copy of the supplied updated paper-era settings.
-- `model.py`: copy of the supplied updated model/training implementation.
-- `experiment.py`: reconstructed generator, three-way stratified splitting, single-level federation, validation thresholding, test evaluation, summary export and source-weight sensitivity.
-- `archived_results/`: archived JSONs, if present, are copied from provided experimental outputs **not produced by this reconstruction**.
+These checks establish **numerical reproducibility of the logistic-regression experiment**. They do not establish original source-code provenance. The separate TensorFlow neural-network reference has **not** been independently rerun or numerically verified in this audit; its historical outputs are retained separately.
 
-## Running (optional, not required to edit the manuscript)
+### What the experiment demonstrates
 
-From this folder:
+A single-level, synchronized *cross-silo simulation* with five independent logical source categories and a common 10-feature representation. Synthetic labels use a prescribed logistic function with two interaction terms, source-specific offsets, Bernoulli sampling and source-dependent label flips. The five data distributions are node-specific and intentionally non-IID. Logistic-regression training uses 900 standalone optimization steps; federated training uses 60 communication rounds with 18 local steps per round, class weighting, L2 regularization and the 10 paper seeds.
+
+FedAvg weights are proportional to local training-set size. Source-weighted FedAvg replaces them with coefficients proportional to `training_size × exogenous_source_weight`; the weights are **not** automatically computed by a data lifecycle model. The real institution-level hierarchical deployment, secure aggregation, differential privacy, resilient scheduling, live emergency observations and calibrated early-warning outcomes are **not part of this experiment**. The network communication numbers count scalars, **not actual transferred bytes or latency**.
+
+### Reproduce and independently check
+
+Requires Python 3.10+ and NumPy. TensorFlow is only needed for optional Keras experiments, not the validated logistic-regression comparison.
 
 ```bash
+cd paper_reconstruction
 python -m pip install numpy
-python experiment.py --self-check  # no training; checks split isolation and threshold policy
-python experiment.py --all-seeds   # computationally expensive, writes reconstructed_outputs/
+OPENBLAS_NUM_THREADS=1 python verify_full.py                 # fast deterministic split/threshold check
+OPENBLAS_NUM_THREADS=1 python verify_full.py --full          # all 240 logistic policy results
+OPENBLAS_NUM_THREADS=1 python verify_full.py --sensitivity   # 12 source-weight sensitivity results
 ```
 
-For the optional DNN reference, install an appropriate TensorFlow version and use `python experiment.py --neural`. `--neural` is exploratory and may execute additional baselines not included in the manuscript's ten-seed main comparison. The reconstruction does not overwrite the historical `outputs/` folder. Supply an explicit output path if desired.
+To write new output copies to an isolated directory:
 
-## What must still be verified
+```bash
+OPENBLAS_NUM_THREADS=1 python experiment.py --all-seeds --output reconstructed_outputs
+```
 
-1. The exact historical generator, train/validation/test stratification and random-number consumption order.
-2. Training/evaluation schedules and initialization semantics in the original missing `main.py`, `data.py`, `federated.py`, and `metrics.py`.
-3. Whether a fresh full run matches archived metrics, source-weight sensitivity, prevalence and scalar counts within a documented tolerance. **Not tested or claimed.**
-4. Dependency versions and computing environment used in the original run.
-5. Only after this audit should the paper describe this repository snapshot as the implementation that produced the published numerical results.
+The script is intentionally prevented from overwriting the original top-level `outputs/` directory. Archived outputs are stored under `archived_results/`, and results produced anew are separate.
 
-The original `main` branch and its old `outputs/` are preserved for provenance. This folder and branch are a reviewable proposal.
+### File provenance
+
+- `config.py`, `model.py`: paper-era versions provided by the authors and retained without changes.
+- `experiment.py`: reconstructed program incorporating the original Beta distributions and recovered classwise split (the same RNG seed for generation and splitting, with separate class shuffles and classwise floored 25% test / 15% validation counts).
+- `verify_full.py`: independent comparator against the frozen results.
+- `audit_archived.py`: read-only archival consistency check.
+- `schema_adapter.py`: feature schema-mapping adapter inherited from the older project; **not validated** on real institutional CSVs.
+- `archived_results/*.json`: author-supplied experimental outputs, **not generated by this reconstruction commit**.
+
+### Traceability and scientific qualifications
+
+The older `federated/` code on the historical `main` branch uses a different synthetic intercept (-8 rather than -20), three rather than ten paper seed offsets and previously selected thresholds on test data; it does **not** produce the paper's final F1 results. For this manuscript, use the reproducible protocol in this folder.
+
+The author-supplied original executable that produced the TensorFlow DNN result is not verified. Do **not** claim that this reconstruction validates a live Protezione Civile deployment, privacy protection, field forecasting performance, or hierarchical FL communication efficiency.
+
+Reference metric values (best-F1 validation operating point; ten seeds, means): classical FedAvg **0.557093**, source-weighted **0.555428**, centralized **0.547642**.
+
+**Recommended manuscript language**: “Code and archived synthetic experimental outputs are available in the linked repository. The logistic-regression results were independently reproduced using a reconstructed version of the experimental protocol; the original full execution environment and separate neural-network experiment were not independently verified.”
