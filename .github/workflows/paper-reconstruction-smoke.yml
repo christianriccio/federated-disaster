@@ -1,0 +1,38 @@
+name: Paper reconstruction - static integrity checks
+
+on:
+  pull_request:
+    paths:
+      - "paper_reconstruction/**"
+      - ".github/workflows/paper-reconstruction-smoke.yml"
+  workflow_dispatch:
+
+jobs:
+  protocol-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install only lightweight dependency
+        run: python -m pip install numpy
+      - name: Check Python source syntax
+        run: python -m py_compile paper_reconstruction/*.py
+      - name: Run validation-isolation smoke check (no model training)
+        working-directory: paper_reconstruction
+        run: python experiment.py --self-check
+      - name: Audit archived outputs (read only)
+        working-directory: paper_reconstruction
+        run: python audit_archived.py
+      - name: Reproduce all ten logistic seeds against frozen reference
+        working-directory: paper_reconstruction
+        env:
+          OPENBLAS_NUM_THREADS: "1"
+        run: python verify_full.py --full
+      - name: Reproduce source-weight sensitivity against frozen reference
+        working-directory: paper_reconstruction
+        env:
+          OPENBLAS_NUM_THREADS: "1"
+        run: python verify_full.py --sensitivity
