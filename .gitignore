@@ -5,3 +5,7 @@ __pycache__/
 venv/
 *.egg-info/
 .ipynb_checkpoints/
+.pytest_cache/
+reconstructed_outputs/
+neural_new_run/
+*.log

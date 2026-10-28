@@ -1,37 +1,51 @@
-name: Paper reconstruction - static integrity checks
+name: Reproduce federated-learning paper results
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "paper_reconstruction/**"
+      - "README.md"
+      - "requirements.txt"
+      - ".github/workflows/paper-reconstruction-smoke.yml"
   pull_request:
     paths:
       - "paper_reconstruction/**"
+      - "README.md"
+      - "requirements.txt"
       - ".github/workflows/paper-reconstruction-smoke.yml"
   workflow_dispatch:
 
 jobs:
-  protocol-smoke:
+  reproduce:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install only lightweight dependency
-        run: python -m pip install numpy
-      - name: Check Python source syntax
+      - name: Install pinned numerical dependency
+        run: python -m pip install -r requirements.txt
+      - name: Verify Python syntax
         run: python -m py_compile paper_reconstruction/*.py
-      - name: Run validation-isolation smoke check (no model training)
+      - name: Confirm one repository README
+        run: test "$(find . -name README.md -not -path './.git/*' | wc -l)" -eq 1
+      - name: Check dataset partitions and validation/test isolation
         working-directory: paper_reconstruction
+        env:
+          OPENBLAS_NUM_THREADS: "1"
         run: python experiment.py --self-check
-      - name: Audit archived outputs (read only)
+      - name: Audit archived outputs without training
         working-directory: paper_reconstruction
         run: python audit_archived.py
-      - name: Reproduce all ten logistic seeds against frozen reference
+      - name: Reproduce every logistic-regression row and summary
         working-directory: paper_reconstruction
         env:
           OPENBLAS_NUM_THREADS: "1"
         run: python verify_full.py --full
-      - name: Reproduce source-weight sensitivity against frozen reference
+      - name: Reproduce source-weight sensitivity
         working-directory: paper_reconstruction
         env:
           OPENBLAS_NUM_THREADS: "1"
