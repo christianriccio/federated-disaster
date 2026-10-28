@@ -1,4 +1,4 @@
-# Federated Learning per la Protezione Civile — Early Warning distribuito
+> **October 2026 paper reproducibility notice.** The historical `federated/` scripts and root `outputs/` in this repository belong to an earlier simulation configuration and **do not reproduce the final FGCS manuscript metrics**. For the reconstructed and numerically validated logistic-regression experiments, frozen paper results, verification commands and scientific limitations, see **[paper_reconstruction/README.md](paper_reconstruction/README.md)**. The historical scripts are intentionally preserved for provenance.\n\n# Federated Learning per la Protezione Civile — Early Warning distribuito
 
 Simulazione sperimentale di un sistema di **monitoraggio e allerta per la
 prevenzione dei disastri**, costruita per confrontare un paradigma di
