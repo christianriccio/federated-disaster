@@ -191,7 +191,7 @@ def auc_and_ap(y, p):
     yy = y[order]
     tp = np.cumsum(yy == 1)
     fp = np.cumsum(yy == 0)
-    roc = float(np.trapz(
+    roc = float(np.trapezoid(
         np.r_[0.0, tp / n_pos, 1.0], np.r_[0.0, fp / n_neg, 1.0]
     ))
     ap = float(np.sum((tp / (tp + fp))[yy == 1]) / n_pos)
