@@ -10,7 +10,7 @@ on:
 jobs:
   protocol-smoke:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,3 +26,13 @@ jobs:
       - name: Audit archived outputs (read only)
         working-directory: paper_reconstruction
         run: python audit_archived.py
+      - name: Reproduce all ten logistic seeds against frozen reference
+        working-directory: paper_reconstruction
+        env:
+          OPENBLAS_NUM_THREADS: "1"
+        run: python verify_full.py --full
+      - name: Reproduce source-weight sensitivity against frozen reference
+        working-directory: paper_reconstruction
+        env:
+          OPENBLAS_NUM_THREADS: "1"
+        run: python verify_full.py --sensitivity
